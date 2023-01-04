@@ -1,0 +1,25 @@
+.homeContent{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px;
+    align-items: center;
+    width: 300px;
+    max-width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid gold;
+}
+.content-text{
+    margin: 0;
+}
+.home-icon{
+    font-size: 70px;
+}

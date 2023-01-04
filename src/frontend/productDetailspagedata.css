@@ -1,0 +1,41 @@
+.productdetails-itemholder{
+    display: flex;
+    gap: 20px;
+    margin: 20px 20px;
+   justify-content: center;
+}
+.productDetailspagedataimg{
+    flex: 6;
+     
+}
+.productDetailspagedatainfo{
+    flex: 6;
+}
+.detailsimg{
+    width: 100%;
+    max-height: 350px;
+    
+}
+.productDetailspagedatainfo .detailsname{
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+}
+
+.detaildescript{
+    font-size: 20px;
+    padding: 10PX;
+    margin: 0PX 10PX;
+}
+.qtystyle{
+    display: flex;
+    margin: 5px 0px;
+}
+.qtystyle .qtystylebtn,.qtystyleinput{
+    max-width: 50px;
+    padding: 8px;
+}
+
+.qtystyleinput{
+    outline: none;
+    border: none;
+}

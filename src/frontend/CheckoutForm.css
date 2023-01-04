@@ -1,0 +1,13 @@
+.checkoutForm{
+    display: flex;
+    flex-direction: column;
+}
+.orderform form{
+    display: flex;
+    flex-direction: column;
+}
+.orderform form input{
+    max-width: 500px;
+    padding: 10px;
+    outline: none;
+}

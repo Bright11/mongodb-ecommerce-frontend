@@ -1,0 +1,60 @@
+.addproduct{
+    display: flex;
+  
+    gap: 10px;
+   flex-direction: column;
+}
+.addproduct-content{
+     display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.addpro_content{
+    flex: 6;
+    padding: 0px 20px;
+}
+.addpro_content form{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px;
+}
+.addpro_content form input, select,.addprobtn{
+    padding: 10px;
+    margin: 10px 0px;
+
+}
+.addpro_content form input,textarea, select,.addprobtn:focus{
+    outline: none;
+    
+}
+
+.displayimg{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myimgpreviw{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.previewimage{
+    display: flex;
+    flex-direction: column;
+}
+.previewimage img{
+   width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+.deleteimg{
+    background-color: rgb(221, 92, 92);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

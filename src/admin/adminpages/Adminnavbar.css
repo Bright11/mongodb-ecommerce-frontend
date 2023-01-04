@@ -1,0 +1,11 @@
+.adminnavbar nav{
+    display: flex;
+    align-items: center;
+}
+.adminnavbar nav ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+    gap: 20px;
+   
+}

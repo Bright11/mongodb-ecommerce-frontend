@@ -1,0 +1,35 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logincontent form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+     box-shadow: 0 0 5px;
+  
+}
+.logincontent form input,button{
+    padding: 10px;
+    width: 400px;
+}
+.showpassword{
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.login form input,button:focus{
+   outline: none;
+}
+@media only screen and (max-width:1000px) {
+    .logincontent form input,button{
+    padding: 10px;
+    max-width: 300px;
+}
+
+}

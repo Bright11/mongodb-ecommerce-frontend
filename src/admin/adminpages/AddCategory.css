@@ -1,0 +1,21 @@
+.addCategory{
+    display: flex;
+}
+.categoryform{
+    flex: 8;
+}
+.categoryform form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 10px;
+    box-shadow: 0 0 5px;
+    align-items: center;
+}
+
+.categoryform form input,button{
+    padding: 10px;
+    width: 90%;
+    padding: 10px;
+    
+}

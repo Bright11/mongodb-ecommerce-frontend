@@ -1,0 +1,33 @@
+.productDetailspagesimilar{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+.similarpr{
+    display: flex;
+    justify-content:baseline;
+    gap: 20px;
+}
+.similarproductflex{
+    max-width: 300px;
+}
+.datasimilarimg{
+    width: 300px;
+    height: 200px;
+   
+}
+.detailscartbtn{
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.dpname{
+    margin: 0;
+    font-size: 18px;
+}
+.detailscartbtn .dprice{
+    flex: 6;
+    margin: 0;
+}

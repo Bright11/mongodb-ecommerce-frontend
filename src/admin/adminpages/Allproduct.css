@@ -1,0 +1,39 @@
+.mytable{
+	margin: 0;
+	position: relative;
+	top: -30px;
+}
+	.adminproimg{
+		width: 100px;
+	}
+
+	.mydata{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 10px;
+	}
+
+	.getdata{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 10px;
+		flex-wrap: wrap;
+
+	}
+	.adminitemname{
+		flex: 4;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.adminimg{
+		flex: 2;
+		margin: 0px 5px;
+	}
+	.admindelete{
+		flex: 2;
+	}

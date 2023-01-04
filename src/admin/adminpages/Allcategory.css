@@ -1,0 +1,25 @@
+.mainallcat{
+    margin: 0px 10px;
+}
+.mytablecat{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 30px;
+}
+.mycategory{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    box-shadow: 0 0 7px;
+    height: 80px;
+    max-height: auto;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+.deleteadmin1{
+    font-size: 28px;
+}

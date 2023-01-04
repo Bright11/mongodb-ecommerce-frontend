@@ -1,0 +1,10 @@
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebar{
+    flex: 2;
+}
+.maincontentadmin{
+    flex: 8;
+}
